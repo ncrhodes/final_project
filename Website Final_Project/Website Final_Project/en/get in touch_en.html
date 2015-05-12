@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en-us">
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <meta charset="utf-8">
+  <title>get in touch</title>
+</head>
+<body>
+
+<nav>
+        <ul>
+          <li><a href="../en/index_en.html">home</a></li>
+          <li><a href="../en/how we rock_en.html">how we rock</a></li>
+          <li><a href="../en/get in touch_en.html">get in touch</a></li>
+        </ul>
+</nav>
+
+<div class="language">
+  <ul>
+      <li><a href="../en/index_en.html">english</a></li>
+      <li><a href="../es/index_es.html">spanish</a></li>
+  </ul>
+</div>
+
+  <div class="container">
+
+      <h1>get in touch</h1>
+
+<form name="myForm" action="" onsubmit="return validateForm()" method="post">
+name:* <input class="input" type="text" name="fname"/> <br/>
+email:* <input class="input" type="text" name="email"/> <br/>
+message:* <input class="input" id="messageBox" type="text" name="message"/> <br/>
+
+<input type="submit" id="submit_button" value="SUBMIT">
+</form>
+
+<script>function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    var y = document.forms["myForm"]["email"].value;
+    var z = document.forms["myForm"]["message"].value;
+
+
+    if (x == null || x == "" || y == null || y == "" || z == null || z == "") {
+        alert("All fields must be filled out");
+        return false;
+    } else {
+      alert("Message sent!");
+    }
+}</script>
+
+
+  </div>
+
+  <footer>
+      <p>© 2015 TransLocale, Inc.</p>
+  </footer>
+
+</body>
+</html>

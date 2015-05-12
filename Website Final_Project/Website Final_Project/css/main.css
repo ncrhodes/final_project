@@ -1,0 +1,147 @@
+* {
+	font-family: 'Times', sans-serif; font-weight: 400;
+}
+
+.container {
+	background-image: url("../img/g11n.jpg");
+	margin-left: 15%;
+	margin-right: 15%;
+	min-height: 700px;
+	color: #FF1493;
+}
+
+.language {
+	float: right;
+	color: #FF1493;
+}
+
+nav {
+	float:left;
+}
+
+body {
+ 	margin: 0;
+ 	background-color: black;
+}
+
+img {
+	border-radius:50% 50% 50% 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul a {
+	color: #FF1493;
+	text-decoration: none;
+	font-size: 15pt;
+	border-right: solid black 1px;
+	padding-right: 10px
+}
+
+form {
+	margin-left: 50px;
+	line-height: 25px
+}
+
+ul a:hover {
+	color: yellow;
+}
+
+a.menu {
+	border-right: 0 ;
+}
+
+footer p {
+	color: white;
+}
+
+ul {
+	display: inline;
+	text-align: middle;
+	list-style-type: square;
+}
+
+li {
+	list-style-type: none;
+    margin: 5px;
+    font-size: 10pt;
+}
+
+li a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Times', sans-serif;
+	font-weight: 600;
+ 	color: black;
+ 	font-size: 40pt;
+ 	text-align: center;
+ 	margin: 0;
+}
+
+h2 {
+	font-family: 'Times', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+    font-size: 25pt;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+	font-weight: 700;
+	margin-left: 15px;
+	text-align: left;
+}
+
+p {
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: left;	
+}
+
+table {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+td p {
+	text-align: left;
+	margin-right: 15px;
+	margin-left: 15px;
+	width: 75%;
+	height: 120%;
+}
+
+.input {
+	margin-bottom: 25px;
+}
+
+#messageBox {
+	width: 400px;
+	height: 200px;
+	margin-right: 100px;
+	margin-left: 22px;
+}
+
+#submit_button{
+	width: 90px;
+	height: 60px;
+	font-weight: 600;
+	font-size: 40pt;
+	margin-left: 94.5px;	
+}
+
+.input{
+	text-align:left;
+	margin-left: 40px;
+}
+footer p {
+    text-align: left;
+    line-height: 24pt;
+    color: #FF1493;
+}
+

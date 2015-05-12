@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="es-us">
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <meta charset="utf-8">
+  <title>contáctenos</title>
+</head>
+<body>
+
+<nav>
+        <ul>
+          <li><a href="../es/index_es.html">inicio</a></li>
+          <li><a href="../es/how we rock_es.html">servicios</a></li>
+          <li><a href="../es/get in touch_es.html">contacto</a></li>
+        </ul>
+</nav>
+
+<div class="language">
+  <ul>
+      <li><a href="../en/index_en.html">english</a></li>
+      <li><a href="../es/index_es.html">spanish</a></li>
+  </ul>
+</div>
+
+  <div class="container">
+
+      <h1>contáctenos</h1>
+      
+
+<form name="myForm" action="" onsubmit="return validateForm()" method="post">
+nome:* <input class="input" type="text" name="fname"/> <br/>
+email:* <input class="input" type="text" name="email"/> <br/>
+mensaje:* <input class="input" id="messageBox" type="text" name="message"/> <br/>
+
+<input type="submit" id="submit_button" value="ENVIAR">
+</form>
+
+<script>function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    var y = document.forms["myForm"]["email"].value;
+    var z = document.forms["myForm"]["message"].value;
+
+
+    if (x == null || x == "" || y == null || y == "" || z == null || z == "") {
+        alert("Debe completar todos los campos");
+        return false;
+    } else {
+      alert("Gracias por enviarnos su mensaje");
+    }
+}</script>
+
+  </div> 
+
+  <footer>
+      <p>© 2015 TransLocale, Inc.</p>
+  </footer>
+
+</body>
+</html>
